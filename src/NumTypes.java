@@ -23,7 +23,7 @@ public class NumTypes {
     byte byteVar = 15;
     short shortVar = 100;
     int intVar = 500;
-    long longVar = 1000;
+    long longVar = 100000000000000L;
     var numb = 100;
   }
 }
