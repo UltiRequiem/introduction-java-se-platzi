@@ -1,5 +1,5 @@
 public class NumTypes {
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     System.out.println("bits tipo byte:" + Byte.SIZE);
     System.out.println("bytes tipo byte:" + Byte.BYTES);
     System.out.println("valor minimo tipo byte:" + Byte.MIN_VALUE);
@@ -20,10 +20,10 @@ public class NumTypes {
     System.out.println("valor minimo tipo long:" + Long.MIN_VALUE);
     System.out.println("valor maximo tipo long:" + Long.MAX_VALUE);
 
-    byte byteVar = 15;
-    short shortVar = 100;
-    int intVar = 500;
-    long longVar = 100000000000000L;
-    var numb = 100;
+    final byte byteVar = 15;
+    final short shortVar = 100;
+    final int intVar = 500;
+    final long longVar = 100000000000000L;
+    final var numb = 100;
   }
 }
