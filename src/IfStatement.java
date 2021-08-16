@@ -7,6 +7,8 @@ public class IfStatement{
       // Send File
       fileSended++;
       System.out.println("File Sended!");
+    }else{
+      System.out.println("Please turn on the Bluetooth!")
     }
   }
 }
